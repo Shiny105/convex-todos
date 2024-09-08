@@ -6,4 +6,6 @@ export const requireUser = async (ctx: ActionCtx | QueryCtx) => {
     if (!user) {
         throw new Error("Unauthorized");
     }
+
+    return user;
 }
