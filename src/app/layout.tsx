@@ -3,8 +3,8 @@ import "./globals.css";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: "Convex Next App",
-  description: "Next App Generated using Convex",
+  title: "Convex Todo App",
+  description: "Next App Generated using Convex Created by Chandni Patel and Favour Kolade",
 };
 
 export default function RootLayout({
